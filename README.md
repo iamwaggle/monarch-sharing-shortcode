@@ -19,3 +19,8 @@ Credit to Shahar's comment <a href="https://journalxtra.com/wordpress/quicksnips
 ```
 [monarch_share url="custom url"]
 ```
+
+*Sharing buttons with custom class*
+```
+[monarch_share class="custom class"]
+```
