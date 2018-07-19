@@ -18,12 +18,13 @@ function monarch_sharing_shortcode($atts) {
 		[
       'url'     => '',
       'center'  => false,
+      'class'  => '',
     ],
 		$atts,
 		'monarch_share'
 	);
   
-  return generate_inline_icons('et_social_inline_bottom', $atts['url'], $atts['center']);
+  return generate_inline_icons($atts['class'], $atts['url'], $atts['center']);
 }
 add_shortcode('monarch_share', 'MSS\\monarch_sharing_shortcode');
 
